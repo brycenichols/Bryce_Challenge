@@ -53,7 +53,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
         self.send_response(400)
 
       self.send_response(301)
-      self.send_header('Location','https://' + host_port[0])
+      self.send_header('Location','https://' + host_port[0] + self.path)
       self.end_headers()
 
 server_address = ("0.0.0.0", 80)

@@ -11,3 +11,7 @@
 - in webserver, run "pulumi up".  Requires credentials to be set up for pulumi ESC and AWS
 - Result is at https://challenge.bnichols.org
 
+## Monitoring
+
+- configured in Uptime Robot: https://stats.uptimerobot.com/oz3ZVyESxC
+
